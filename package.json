@@ -1,0 +1,32 @@
+{
+  "name": "templaterific",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "bin": {
+    "mycli": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinner": "^0.2.10",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/cli-spinner": "^0.2.1",
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/figlet/fonts/*.flf"
+    ]
+  }
+}
